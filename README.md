@@ -13,7 +13,7 @@
 
 ## Natural Language Process (NLP)
 
-- Transformer : [NIPS] Imagenet Classification with Deep Convolutional Neural Networks (2017)
+- Transformer : [NIPS] Attention Is All You Need (2017)
 
   |[Original Paper](https://arxiv.org/abs/1706.03762) |[Review file](#)| [Codes](#)|
   |:---:|:---:|:---:|
