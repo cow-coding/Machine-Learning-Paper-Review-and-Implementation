@@ -5,13 +5,18 @@
 
 ## Computer Vision (CV)
 
-- [NIPS] Imagenet Classification with Deep Convolutional Neural Networks (2012) (a.k.a AlexNet)  
+- AlexNet : [NIPS] Imagenet Classification with Deep Convolutional Neural Networks (2012)
 
   |[Original Paper](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |[Review file](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/presentation/AlexNet/AlexNet_presentation.pdf)| [Codes](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/tree/main/practice_code/AlexNet)|
   |:---:|:---:|:---:|
   
 
 ## Natural Language Process (NLP)
+
+- Transformer : [NIPS] Imagenet Classification with Deep Convolutional Neural Networks (2017)
+
+  |[Original Paper](https://arxiv.org/abs/1706.03762) |[Review file](#)| [Codes](#)|
+  |:---:|:---:|:---:|
 
 ## Recommender System (RecSys)
 
