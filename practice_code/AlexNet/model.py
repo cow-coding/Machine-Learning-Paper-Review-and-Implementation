@@ -1,13 +1,16 @@
+"""
+This model is based on
+"""
+
 import torch
 import numpy as np
-import torchvision
 import torch.nn as nn
 
 
 class AlexNet(nn.Module):
-    def __init__(self, output_dim=1000, dropout=0.5):
+    def __init__(self, num_classes=1000, dropout=0.5):
         super(AlexNet, self).__init__()
-        self.output_dim = output_dim
+        self.output_dim = num_classes
         # 5 Conv Layers
         self.convolution = nn.Sequential(
             # First Conv
@@ -21,27 +24,27 @@ class AlexNet(nn.Module):
             nn.LocalResponseNorm(size=5, alpha=1e-4, beta=0.75, k=2),
             nn.MaxPool2d(kernel_size=3, stride=2),
             # Third Conv
-            nn.Conv2d(in_channels=256, out_channels=384, kernel_size=3),            # 3 x 3 x (128 x 2) x (192 x 2)
+            nn.Conv2d(in_channels=256, out_channels=384, kernel_size=3, padding=1),            # 3 x 3 x (128 x 2) x (192 x 2)
             nn.ReLU(inplace=True),
             # Fourth Conv
-            nn.Conv2d(in_channels=384, out_channels=384, kernel_size=3),            # 3 x 3 x (192 x 2) x (192 x 2)
+            nn.Conv2d(in_channels=384, out_channels=384, kernel_size=3, padding=1),            # 3 x 3 x (192 x 2) x (192 x 2)
             nn.ReLU(inplace=True),
             # Fifth Conv
-            nn.Conv2d(in_channels=384, out_channels=256, kernel_size=3),            # 3 x 3 x (192 x 2) x (128 x 2)
+            nn.Conv2d(in_channels=384, out_channels=256, kernel_size=3, padding=1),            # 3 x 3 x (192 x 2) x (128 x 2)
             nn.ReLU(inplace=True),
             nn.MaxPool2d(kernel_size=3, stride=2)
         )
-        self.avgpool = nn.AdaptiveAvgPool2d((6, 6))                                 # ??? <- model size : 256 x 6 x 6
+
         self.classifier = nn.Sequential(
             nn.Dropout(p=dropout, inplace=True),
             # First FC
-            nn.Linear(in_features=256 * 6 * 6, out_features=4096),
+            nn.Linear(in_features=(256 * 6 * 6), out_features=4096),
             nn.ReLU(inplace=True),
             nn.Dropout(p=dropout, inplace=True),
             # Second FC
             nn.Linear(in_features=4096, out_features=4096),
             # Third FC
-            nn.Linear(in_features=4096, out_features=self.output_dim)
+            nn.Linear(in_features=4096, out_features=self.num_classes)
         )
 
         self.init_bias()
@@ -65,9 +68,6 @@ class AlexNet(nn.Module):
 
     def forward(self, x):
         x = self.convolution(x)
-        # print(x.shape)
-        x = self.avgpool(x)
-        # print(x.shape)
-        x = torch.flatten(x, 1)
+        x = x.view(-1, 256*6*6)
         output = self.classifier(x)
         return output
