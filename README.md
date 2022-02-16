@@ -13,7 +13,7 @@
 
 ## Natural Language Process (NLP)
 
-- Transformer : [NIPS] Attention Is All You Need (2017)
+- Transformer : [NIPS] Attention Is All You Need (2017) (Comming Soon...)
 
   |[Original Paper](https://arxiv.org/abs/1706.03762) |[Review file](#)| [Codes](#)|
   |:---:|:---:|:---:|
