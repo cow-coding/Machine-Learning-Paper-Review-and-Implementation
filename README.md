@@ -14,13 +14,13 @@
 
 ## Natural Language Process (NLP)
 
-> waiting list...
-> [ACL] Class-Based n-gram Models of Natural Language
+> waiting list...  
+> [ACL] Class-Based n-gram Models of Natural Language  
 
 ## Recommender System (RecSys)
 
-> waiting list...
-> [IEEE] Collaborative Filtering for Implicit Feedback Datasets (2008)
-> [UAI] BPR: Bayseian Personalized Ranking from Implicit Feedback (2009)
+> waiting list...  
+> [IEEE] Collaborative Filtering for Implicit Feedback Datasets (2008)  
+> [UAI] BPR: Bayseian Personalized Ranking from Implicit Feedback (2009)  
 
 ## MLOps & Data Engineering
