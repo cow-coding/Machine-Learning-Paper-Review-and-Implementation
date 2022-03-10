@@ -15,7 +15,6 @@
 ## Natural Language Process (NLP)
 
 > waiting list...  
-> [ACL] Class-Based n-gram Models of Natural Language  
 
 ## Recommender System (RecSys)
 
