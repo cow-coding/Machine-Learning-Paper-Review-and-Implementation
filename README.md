@@ -19,6 +19,7 @@
 ## Recommender System (RecSys)
 
 > waiting list...  
+> Neural Graph Collaborative Filtering (2019)
 > [IEEE] Collaborative Filtering for Implicit Feedback Datasets (2008)  
 > [UAI] BPR: Bayseian Personalized Ranking from Implicit Feedback (2009)  
 
