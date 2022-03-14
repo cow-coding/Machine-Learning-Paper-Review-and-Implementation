@@ -18,8 +18,12 @@
 
 ## Recommender System (RecSys)
 
+- [SGIR] Neural Graph Collaborative Filtering (2019)
+
+  |[Original Paper](https://arxiv.org/abs/1905.08108) | | Codes - ing...|[Post](https://cow-coding.github.io/posts/ngcf/)|
+  |:---:|:---:|:---:|:---:|
+
 > waiting list...  
-> Neural Graph Collaborative Filtering (2019)  
 > [IEEE] Collaborative Filtering for Implicit Feedback Datasets (2008)  
 > [UAI] BPR: Bayseian Personalized Ranking from Implicit Feedback (2009)  
 
