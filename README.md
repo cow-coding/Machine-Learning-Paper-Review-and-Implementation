@@ -18,7 +18,7 @@
 
 ## Recommender System (RecSys)
 
-- [SGIR] Neural Graph Collaborative Filtering (2019)
+- [ACM] Neural Graph Collaborative Filtering (2019)
 
   |[Original Paper](https://arxiv.org/abs/1905.08108) | Review file | Codes|[Post](https://cow-coding.github.io/posts/ngcf/)|
   |:---:|:---:|:---:|:---:|
