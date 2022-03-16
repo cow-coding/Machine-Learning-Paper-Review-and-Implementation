@@ -8,7 +8,7 @@
 
 - AlexNet : [NIPS] Imagenet Classification with Deep Convolutional Neural Networks (2012)
 
-  |[Original Paper](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |[Review file](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/presentation/AlexNet/AlexNet_presentation.pdf)| [Codes](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/tree/main/implementation_code/AlexNet/model.py)|[Post](https://cow-coding.github.io/posts/alexnet/)|
+  |[Original Paper](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) |[Review file](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/presentation/AlexNet/AlexNet_presentation.pdf)| [Codes](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/tree/main/implementation_code/AlexNet/model.py)|[Review Post](https://cow-coding.github.io/posts/alexnet/)|
   |:---:|:---:|:---:|:---:|
   
 
@@ -20,7 +20,7 @@
 
 - [ACM] Neural Graph Collaborative Filtering (2019)
 
-  |[Original Paper](https://arxiv.org/abs/1905.08108) | Review file | Codes|[Post](https://cow-coding.github.io/posts/ngcf/)|
+  |[Original Paper](https://arxiv.org/abs/1905.08108) | Review file | Codes|[Review Post](https://cow-coding.github.io/posts/ngcf/)|
   |:---:|:---:|:---:|:---:|
 
 > waiting list...  
