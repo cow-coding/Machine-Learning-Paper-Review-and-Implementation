@@ -15,6 +15,7 @@
 ## Natural Language Process (NLP)
 
 > waiting list...  
+> Efficient Estimation of Word Representations in Vector Space (2013)
 
 ## Recommender System (RecSys)
 
