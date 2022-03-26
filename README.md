@@ -21,7 +21,7 @@
 
 - [ACM] Neural Graph Collaborative Filtering (2019)
 
-  |[Original Paper](https://arxiv.org/abs/1905.08108) | Review file | Codes|[Review Post](https://cow-coding.github.io/posts/ngcf/)|
+  |[Original Paper](https://arxiv.org/abs/1905.08108) | Review file | [Codes](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/implementation_code/NGCF/model.py) |[Review Post](https://cow-coding.github.io/posts/ngcf/)|
   |:---:|:---:|:---:|:---:|
 
 > waiting list...  
