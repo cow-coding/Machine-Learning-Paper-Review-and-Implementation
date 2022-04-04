@@ -30,6 +30,7 @@
   |:---:|:---:|:---:|:---:|
 
 > waiting list...  
+> Deep Variational Autoencoder with Shallow Parallel Path for Top-N Recommendation (VASP)  
 > [IEEE] Collaborative Filtering for Implicit Feedback Datasets (2008)  
 > [UAI] BPR: Bayseian Personalized Ranking from Implicit Feedback (2009)  
 
