@@ -26,7 +26,7 @@
 
 - Deep Variational Autoencoder with Shallow Parallel Path for Top-N Recommendation (VASP) (2021)
   
-  |[Original Paper](https://arxiv.org/abs/2102.05774) | [Review file](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/presentation/VASP_presentation.pdf) | Codes |[Review Post](https://cow-coding.github.io/posts/VASP/)|
+  |[Original Paper](https://arxiv.org/abs/2102.05774) | [Review file](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/presentation/VASP_presentation.pdf) | [Codes](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/tree/main/implementation_code/VASP) |[Review Post](https://cow-coding.github.io/posts/VASP/)|
   |:---:|:---:|:---:|:---:|
 
 > waiting list...  
