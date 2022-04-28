@@ -14,6 +14,11 @@
 
 ## Natural Language Process (NLP)
 
+- [ACM] Skip-Thought Vectors (2019)
+
+  |[Original Paper](https://arxiv.org/abs/1506.06726) | [Review file](https://github.com/cow-coding/Machine-Learning-Paper-Review-and-Implementation/blob/main/presentation/skip-thought_vector.pptx) | Codes |Review Post|
+  |:---:|:---:|:---:|:---:|
+
 > waiting list...  
 > Efficient Estimation of Word Representations in Vector Space (2013)
 
